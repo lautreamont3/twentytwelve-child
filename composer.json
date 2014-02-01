@@ -1,0 +1,11 @@
+{
+  "name":        "lautreamont3/twentytwelve-child",
+  "description": "WordPress theme",
+  "type":        "wordpress-theme",
+  "version":     "0.1.0",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6",
+  }
+}
+
