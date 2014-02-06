@@ -6,6 +6,7 @@ Template: twentytwelve
 Version: 1.0
 */
 
+/* IMPORT ORIGINAL TEWENTYTWELVE.CSS */
 @import url("../twentytwelve/style.css");
 
 .clearfix		{ *zoom:1; }
