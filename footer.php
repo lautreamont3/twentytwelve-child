@@ -11,5 +11,6 @@
 </div><!-- #page -->
 <!-- END FOOTER.PHP -->
 <?php wp_footer(); ?>
+<script type="text/javascript">Hyphenator.run();</script>
 </body>
 </html>
