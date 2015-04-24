@@ -1,13 +1,5 @@
 <?php
 
-remove_filter( 'the_excerpt', 'wpautop' );
-remove_filter( 'the_excerpt', 'wptexturize' );
-add_filter( 'the_excerpt', 'markdown_the_excerpt' );
-function markdown_the_excerpt( $content ) {
-	return WPCom_Markdown::get_instance()->transform( $content, $args = array( unslash => false ) );
-}
-
-
 function divpostimage($atts) {
 	extract(shortcode_atts(array(
 		'i'	=> '',

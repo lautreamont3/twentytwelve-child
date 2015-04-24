@@ -5,6 +5,8 @@ Author: lautreamont3
 Template: twentytwelve
 Version: 0.3.0
 */
+/* IMPORT ORIGINAL TEWENTYTWELVE.CSS */
+@import url("../twentytwelve/style.css");
 
 .clearfix {
 	*zoom:1; }
@@ -20,7 +22,10 @@ body {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	color: #111; }
-/*body .site		{ background-image: url('images/papirus.png'); }*/
+
+body .site {
+	background-image: url('images/papirus.png'); }
+
 @media screen and (min-width: 960px) {
 	body .site {
 		padding: 0 40px;
@@ -34,8 +39,9 @@ body {
 /* SITE TITLE */
 .site-header {
 	padding: 0;
-	margin-top: 8px;
-	height: 125px; }
+/*	margin-top: 8px;*/
+	height: 125px;
+	background-image: url('images/header-00.jpg'); }
 
 .site-header h1,
 .site-header h2 {
@@ -62,9 +68,8 @@ img.header-image {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
 
 hgroup {
-	position: relative;
-	top:-97px;
-	left: 28px; }
+	padding-top: 46px;
+	padding-left: 32px; }
 
 /* POSTS */
 .site-content article {
