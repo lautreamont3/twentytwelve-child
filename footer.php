@@ -22,17 +22,5 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<!--<script type="text/javascript">Hyphenator.run();</script>-->
-<script type="text/javascript">jQuery(document).ready(function($){$('#liquid').liquidSlider({
-	autoSlide:true,
-	autoSlideInterval:'3000',
-	slideEaseFunction:'fade',
-	dynamicTabs:true,
-	dynamicTabsAlign:'right',
-	dynamicTabsPosition:'bottom',
-	panelTitleSelector:'span.tabulator',
-	autoHeight:true
-});});</script>
-<!--	 -->
 </body>
 </html>
