@@ -2,7 +2,7 @@
   "name":        "lautreamont3/twentytwelve-child",
   "description": "WordPress theme",
   "type":        "wordpress-theme",
-  "version":     "0.2.0",
+  "version":     "0.3.0",
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12"

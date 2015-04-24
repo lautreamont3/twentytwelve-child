@@ -30,7 +30,7 @@
 			</header>
 			<article id="post-home-1" class="post no-results not-found">
 				<div class="entry-content">
-					<div id="klijenti" class="liquid-slider">
+					<div id="knjige" class="liquid-slider">
 					<?php
 						while ( have_posts() ) : the_post();
 							get_template_part( 'content', 'news' );
@@ -39,7 +39,7 @@
 					</div><!-- #klijenti -->
 				</div><!-- entry-content -->
 			</article><!-- #post-0 -->
-<script type="text/javascript">jQuery(document).ready(function($){$('#klijenti').liquidSlider({autoSlide:true, autoSlideInterval:'4000', dynamicTabs:true, dynamicTabsAlign:'left', dynamicTabsPosition:'bottom', panelTitleSelector:'span.tabulator', dynamicArrows:true, autoHeight:true});});</script>
+<script type="text/javascript">jQuery(document).ready(function($){$('#knjige').liquidSlider({autoSlide:true, autoSlideInterval:'4000', dynamicTabs:true, dynamicTabsAlign:'left', dynamicTabsPosition:'bottom', panelTitleSelector:'span.tabulator', dynamicArrows:true, autoHeight:true});});</script>
 <?php $wp_query = clone $temp_query; ?>
 	</div><!-- #content -->
 </div><!-- #primary -->
